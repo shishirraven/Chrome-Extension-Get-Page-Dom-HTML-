@@ -72,5 +72,5 @@ fclose($myfile);
 If you want help in creating a similar scirpt please feel free to contact 
 me at my email address shishir.raven@gmail.com 
 
-You can also visit me on my website iamshishir.com
+You can also visit me on my website http://www.iamshishir.com
 ***
