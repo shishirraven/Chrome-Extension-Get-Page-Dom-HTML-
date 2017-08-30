@@ -1,0 +1,16 @@
+{
+  "name": "Post Page Content as Ajax",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Small Script that takes dom and Posts it as a AJAX Request where you desire on load. ",
+  "content_scripts": [
+    {
+      "matches": [
+      	"https://www.google.co.in/*"
+      	],
+      	"css": ["mystyle.css"],
+        "js": ["getPagesSource.js"]
+    }
+  ],
+  "permissions": ["tabs", "<all_urls>"]
+}
